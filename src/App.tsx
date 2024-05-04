@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import UpdateElectron from '@/components/update'
 import logoVite from './assets/logo-vite.svg'
 import logoElectron from './assets/logo-electron.svg'
 import './App.css'
@@ -30,7 +29,6 @@ function App() {
         Place static files into the<code>/public</code> folder <img style={{ width: '5em' }} src='./node.svg' alt='Node logo' />
       </div>
 
-      <UpdateElectron />
     </div>
   )
 }
